@@ -1,0 +1,27 @@
+PROGRAMAS EN EL DIRECTORIO
+
+1. funciones.f90, propiedades.f90 y principal.f90 --> cálculo de las propiedades elasticas.
+
+2. plot3D.py --> representación de las propiedades en 3 dimensiones
+
+
+==================================================================================
+
+
+INPUT NECESARIO:
+    'matriz.txt' :: archivo con el tensor de constante elasticas.
+    'error.txt'  :: archivo con la matriz de errores.
+
+PARA EJECUTAR DIRECTAMENTE:
+    f95 funciones.f90 propiedades.f90 principal.f90 && ./a.out && python plot3D.py
+
+Devuele:
+    Propiedades elasticas y sus errores en la terminal
+    Archivos 'young.html' y 'compr.html' con las representaciones en 3D.
+
+
+
+==================================================================================
+
+
+EJEMPLOS DE LA REPRESENTACIÓN:  'young.html' y 'compr.html'
