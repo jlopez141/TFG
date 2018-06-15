@@ -1,0 +1,23 @@
+PROGRAMAS EN EL DIRECTORIO
+
+1. vectores.f90 --> crea un archivo 'deformaciones.txt' con las deformaciones para aplicar en las simulaciones.
+
+
+
+=======================================================================================
+
+
+
+2. general.f90 --> Lee los archivos 'def1.out', ..., 'def6.out' y devuelve los coeficientes del tensor de constantes elasticas.
+
+
+INPUT NECESARIO:
+    Archivos con el output de SIESTA para las 6 deformaciones :: 'def1.out', ..., 'def6.out'.
+
+
+COMPILACION
+    f95 general.f90 && ./a.out
+
+
+RESULTADOS
+    Se guardan las constantes en el archivo CONSTANTES.txt
