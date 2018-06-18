@@ -97,7 +97,7 @@ DM.MixSCF1            .false.
 
 # PARAMETROS PARA LA INTEGRACION NUMERICA
 MeshCutoff             500  Ry         # Energia de corte para las ondas planas
-kgrid_cutoff           40  Bohr        # Radio de corte para la elección de puntos k
+kgrid_cutoff           30  Bohr        # Radio de corte para la elección de puntos k
 
 
 
