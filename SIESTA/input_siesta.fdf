@@ -74,8 +74,8 @@ n=3   2   1   E    87.65847    5.83989
 
 
 # EXCHANGE-CORRELATION. 
-xc.functional          LDA
-#xc.authors             PZ
+xc.functional          GGA
+xc.authors             PBE
 
 
 
